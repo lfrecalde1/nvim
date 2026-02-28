@@ -11,6 +11,7 @@ return {
       { "<Leader>ff", "<Cmd>Telescope find_files<CR>", desc = "Find files" },
       { "<Leader>fg", "<Cmd>Telescope live_grep<CR>", desc = "Live grep" },
       { "<Leader>fb", "<Cmd>Telescope buffers<CR>", desc = "Buffers" },
+      { "<Leader>fs", "<Cmd>Telescope current_buffer_fuzzy_find<CR>", desc = "Search buffer" },
       { "<Leader>fh", "<Cmd>Telescope help_tags<CR>", desc = "Help" },
     },
     opts = function()
